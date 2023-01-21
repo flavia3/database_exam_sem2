@@ -1,0 +1,66 @@
+2022/DCSE/026/SS
+Question 1
+(i)	Database 
+A database is a collection of related tables
+
+(ii)	Database Management System
+This is a software program that stores databases and enables running of queries like insert, update on the database
+
+(iii)	SQL
+SQL is a structured query language that enables a database user perform various activities with the database
+
+(iv)	Foreign key
+This is a candidate key in a relation with values that match values of a primary key in another relation
+
+(v)	Primary key
+This is a set of values in a relation that uniquely identifies each entity
+
+Question 2
+A database reduces data redundancy. This means when using a database, there will be minimal repetition of data.
+Databases stores a lot of data. It is easy to store a lot of data for future reference
+Databases enable data security. This is because some database require permission for a user to login.
+Databases are easy to learn. It does not need complex languages to understand for example SQL 
+Databases minimizes referential constraints especially incase of showing the relationship of one table to another. This is done using foreign keys
+Sql update
+
+Question 3
+Oracle
+Postgres
+MySQL
+MariaDB
+MongoDB
+Microsoft access
+
+Question 4
+Zero-to-many
+One-to-one
+One-to-many
+Many-to-many
+One-to-one relationship is where there is a single existence of the relationship with two relations
+One-to-many is where there one participant has a relationship to many participants in another relations
+Many-to-many is where all participants have relationship to each other.
+
+SECTION B
+Question 5(b)
+i.	WHERE;
+This SQL command enables you to find a specified category depending on your condition
+For example
+select * from customers where gender=’male’
+It will only return the customers of the male gender
+i.	GROUPBY 
+This SQL command enables you to arrange identical data into groups
+ii.	DISTINCT 
+This returns the non-duplicated values from the table and any duplicate values will be ignored.
+For example
+select distinct country from customers.  
+It will only return the country names and will ignore repeated country names.
+iii.	SELECT
+This displays your data depending on what the user wants to return
+For example
+Select * from users
+It will display all details of users
+iv.	ORDERBY 
+This return specified values in either ascending or descending order.
+For example
+select name, age from employees order by Age;
+It will return the name and age but with age arranged from ascending order

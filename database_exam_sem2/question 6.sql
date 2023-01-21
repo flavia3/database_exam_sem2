@@ -1,3 +1,4 @@
+-- creating a table employees
 create table  employees(
 	Id varchar(50) primary key,
     Name varchar(50) not null,
@@ -5,6 +6,7 @@ create table  employees(
     Address  varchar(50)
 );
 
+-- inserting data into employees table
 insert into employees(Id, Name, Age, Address)
 values('1001', 'Rohan', '26', 'Delhi'),
 ('1002', 'Ankit', '30', 'Guragon'),
